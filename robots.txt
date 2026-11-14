@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://hapjoy-boisar.github.io/sitemap.xml
+Sitemap: https://hapjoykids.com/sitemap.xml
