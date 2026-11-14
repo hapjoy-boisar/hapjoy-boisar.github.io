@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hapjoy Kids Playzone · Indoor Play Area in Boisar East</title>
+<meta name="description" content="Screen-free indoor playzone for kids in Boisar East, next to Smart Bazaar at Good Life Mall. Ball pit, slides, trampoline, foam pit, ride-ons and pretend play. Open every day.">
+<meta property="og:title" content="Hapjoy Kids Playzone, Boisar">
+<meta property="og:description" content="Slide into Joy · Climb with Kindness. Screen-free indoor play next to Smart Bazaar, Boisar East.">
+<meta property="og:image" content="https://hapjoy-boisar.github.io/img/hero.jpg">
+<meta property="og:url" content="https://hapjoy-boisar.github.io/">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#FFF7EC">
+<link rel="icon" href="img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EntertainmentBusiness",
+  "additionalType": "https://en.wikipedia.org/wiki/Indoor_playground",
+  "name": "Hapjoy Kids Playzone",
+  "slogan": "Slide into Joy · Climb with Kindness",
+  "image": "https://hapjoy-boisar.github.io/img/hero.jpg",
+  "url": "https://hapjoy-boisar.github.io/",
+  "logo": "https://hapjoy-boisar.github.io/img/logo.png",
+  "telephone": "+91-7977462523",
+  "priceRange": "₹150–₹450",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "F-19, 1st Floor, Good Life Mall, Tata Housing Road, next to Smart Bazaar, Betegaon",
+    "addressLocality": "Boisar East",
+    "addressRegion": "Maharashtra",
+    "postalCode": "401501",
+    "addressCountry": "IN"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 19.7852149, "longitude": 72.7828455 },
+  "hasMap": "https://maps.google.com/?cid=9980646970846162751",
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "14:30", "closes": "20:30" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday","Sunday"], "opens": "11:00", "closes": "20:30" }
+  ],
+  "sameAs": ["https://www.instagram.com/hapjoy_boisar/"]
+}
+</script>
+
+<style>
+  :root {
+    --cream: #FFF7EC;
+    --paper: #FFFFFF;
+    --ink: #4A2E1F;
+    --ink-soft: #7A5E4E;
+    --green: #5E9B7A;
+    --green-deep: #3F7A5B;
+    --orange: #D9952B;
+    --sun: #F6C343;
+    --sky: #7EC8D8;
+    --pink: #F08AA0;
+    --line: #F0E3CF;
+    --radius: 22px;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--cream);
+    color: var(--ink);
+    font-family: "Nunito", system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 17px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  img { display: block; max-width: 100%; }
+  a { color: inherit; }
+  h1, h2, h3 { font-family: "Fredoka", "Nunito", sans-serif; font-weight: 600; line-height: 1.15; margin: 0; }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 0 16px; }
+
+  /* ---------- Hero ---------- */
+  .hero { padding: 22px 0 8px; }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .brand img { width: 56px; height: 56px; border-radius: 50%; box-shadow: 0 4px 14px rgba(74,46,31,.12); }
+  .brand span { font-family: "Fredoka", sans-serif; font-weight: 600; font-size: 20px; }
+  .hero-grid { display: grid; gap: 22px; margin-top: 22px; align-items: center; }
+  .hero h1 { font-size: clamp(36px, 9vw, 58px); letter-spacing: -.5px; }
+  .hero h1 .j { color: var(--orange); }
+  .hero h1 .g { color: var(--green); }
+  .tag { margin: 12px 0 0; font-size: 19px; color: var(--ink-soft); }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0 0; padding: 0; list-style: none; }
+  .chips li { background: var(--paper); border: 1.5px solid var(--line); border-radius: 999px; padding: 6px 13px; font-size: 14.5px; font-weight: 700; }
+  .hero-photo { position: relative; }
+  .hero-photo img { width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; object-position: center 70%; border-radius: 28px; box-shadow: 0 14px 40px rgba(74,46,31,.16); }
+  .open-now {
+    position: absolute; left: 14px; bottom: 14px;
+    background: var(--paper); border-radius: 999px; padding: 7px 14px;
+    font-weight: 700; font-size: 14.5px; box-shadow: 0 6px 18px rgba(0,0,0,.14);
+  }
+  .open-now i { display: inline-block; width: 9px; height: 9px; border-radius: 50%; background: var(--green); margin-right: 7px; vertical-align: 1px; }
+  .open-now.closed i { background: #C9B8A6; }
+
+  /* ---------- Buttons ---------- */
+  .actions { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 22px; }
+  .btn {
+    display: flex; align-items: center; justify-content: center; gap: 9px;
+    min-height: 54px; padding: 0 16px; border-radius: 16px;
+    font-weight: 700; font-size: 16.5px; text-decoration: none;
+    background: var(--paper); border: 1.5px solid var(--line);
+    transition: transform .12s ease;
+  }
+  .btn:active { transform: scale(.98); }
+  .btn svg { width: 21px; height: 21px; flex: none; }
+  .btn.wa { grid-column: 1 / -1; background: var(--green-deep); color: #fff; border-color: var(--green-deep); font-size: 17.5px; }
+
+  /* ---------- Sections ---------- */
+  section { padding: 44px 0 6px; }
+  .eyebrow { font-weight: 700; font-size: 13.5px; letter-spacing: 1.4px; text-transform: uppercase; color: var(--orange); margin-bottom: 6px; }
+  h2 { font-size: clamp(28px, 6.5vw, 38px); }
+  .lead { color: var(--ink-soft); margin: 8px 0 0; max-width: 560px; }
+
+  /* Prices */
+  .prices { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 22px; }
+  .price {
+    background: var(--paper); border: 1.5px solid var(--line); border-radius: var(--radius);
+    padding: 18px 16px 16px; position: relative; overflow: hidden;
+  }
+  .price::before { content: ""; position: absolute; inset: 0 0 auto 0; height: 6px; background: var(--c, var(--sun)); }
+  .price .dur { font-weight: 700; color: var(--ink-soft); font-size: 15px; }
+  .price .amt { font-family: "Fredoka", sans-serif; font-weight: 600; font-size: 36px; margin-top: 2px; }
+  .price .amt small { font-size: 22px; margin-right: 1px; }
+  .price.best { --c: var(--green); }
+  .price.best .badge { position: absolute; top: 14px; right: 12px; background: #E8F3EC; color: var(--green-deep); font-size: 12px; font-weight: 700; padding: 3px 9px; border-radius: 999px; }
+  .note {
+    display: flex; gap: 12px; align-items: flex-start;
+    margin-top: 14px; background: #FFF1D6; border-radius: 16px; padding: 14px 16px; font-size: 15.5px;
+  }
+  .note b { display: block; }
+
+  /* Play areas */
+  .areas { display: grid; gap: 12px; margin-top: 22px; }
+  .area {
+    display: flex; gap: 14px; align-items: center;
+    background: var(--paper); border: 1.5px solid var(--line); border-radius: var(--radius); padding: 14px 16px;
+  }
+  .dot { width: 48px; height: 48px; border-radius: 15px; display: grid; place-items: center; flex: none; font-size: 24px; }
+  .area h3 { font-size: 19px; }
+  .area p { margin: 2px 0 0; font-size: 15px; color: var(--ink-soft); }
+
+  /* Gallery */
+  .gallery { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 22px; }
+  .gallery img { width: 100%; height: auto; object-fit: cover; border-radius: 18px; aspect-ratio: 1 / 1; }
+  .gallery .wide { grid-column: 1 / -1; }
+  .gallery .wide img { aspect-ratio: 16 / 9; }
+
+  /* Visit */
+  .visit { display: grid; gap: 14px; margin-top: 22px; }
+  .card { background: var(--paper); border: 1.5px solid var(--line); border-radius: var(--radius); padding: 18px; }
+  .card h3 { font-size: 20px; margin-bottom: 8px; }
+  .hours { width: 100%; border-collapse: collapse; font-size: 16px; }
+  .hours td { padding: 7px 0; border-bottom: 1px dashed var(--line); }
+  .hours tr:last-child td { border-bottom: 0; }
+  .hours td:last-child { text-align: right; font-weight: 700; }
+  .hours tr.today td { color: var(--green-deep); }
+  .addr { margin: 0; }
+  .map { width: 100%; height: 260px; border: 0; border-radius: 16px; margin-top: 14px; background: var(--line); }
+  .link { display: inline-flex; align-items: center; gap: 6px; margin-top: 12px; font-weight: 700; color: var(--green-deep); text-decoration: none; }
+
+  /* Values strip */
+  .values {
+    margin-top: 44px; background: var(--green-deep); color: #fff; border-radius: 28px;
+    padding: 28px 20px; text-align: center;
+  }
+  .values h2 { font-size: clamp(26px, 6vw, 34px); }
+  .values p { margin: 10px auto 0; max-width: 520px; opacity: .92; }
+
+  footer { padding: 34px 0 110px; text-align: center; color: var(--ink-soft); font-size: 14.5px; }
+  footer a { font-weight: 700; color: var(--ink); }
+
+  /* Sticky WhatsApp bar on phones */
+  .sticky {
+    position: fixed; left: 12px; right: 12px; bottom: 12px; z-index: 10;
+    display: flex; gap: 8px;
+    transform: translateY(140%); transition: transform .25s ease;
+  }
+  .sticky.show { transform: none; }
+  .sticky .btn { flex: 1; box-shadow: 0 10px 28px rgba(0,0,0,.18); }
+  .sticky .btn.call { flex: 0 0 56px; padding: 0; }
+
+  @media (min-width: 820px) {
+    .hero-grid { grid-template-columns: 1.1fr .9fr; gap: 44px; }
+    .hero-photo img { aspect-ratio: 4 / 5; object-position: center; }
+    .actions { grid-template-columns: 1.35fr 1fr 1fr; max-width: 580px; }
+    .btn { white-space: nowrap; }
+    .btn.wa { grid-column: auto; }
+    .prices { grid-template-columns: repeat(4, 1fr); }
+    .areas { grid-template-columns: 1fr 1fr; }
+    .gallery { grid-template-columns: repeat(3, 1fr); }
+    .gallery .wide { grid-column: span 2; }
+    .gallery .wide img { aspect-ratio: auto; }
+    .visit { grid-template-columns: 1fr 1.3fr; }
+    .sticky { display: none; }
+    footer { padding-bottom: 40px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="brand">
+      <img src="img/logo.png" alt="Hapjoy Kids Playzone logo" width="56" height="56">
+      <span>Hapjoy Kids Playzone</span>
+    </div>
+
+    <div class="hero-grid">
+      <div>
+        <h1>Slide into <span class="j">Joy</span>.<br>Climb with <span class="g">Kindness</span>.</h1>
+        <p class="tag">A happy, screen-free indoor playzone for little ones in Boisar East, right next to Smart Bazaar.</p>
+        <ul class="chips">
+          <li>🟡 Ball pit &amp; slides</li>
+          <li>🤸 Trampoline</li>
+          <li>🧱 Foam pit</li>
+          <li>🚗 Ride-ons</li>
+          <li>🧸 Pretend play</li>
+        </ul>
+        <div class="actions" id="actions">
+          <a class="btn wa" href="https://wa.me/917977462523?text=Hi%20Hapjoy!%20I%27d%20like%20to%20know%20more%20about%20a%20play%20visit." target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.4-.3Z"/></svg>
+            WhatsApp us
+          </a>
+          <a class="btn" href="tel:+917977462523">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg>
+            Call
+          </a>
+          <a class="btn" href="https://maps.google.com/?cid=9980646970846162751" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            Directions
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-photo">
+        <img src="img/hero.jpg" alt="Colourful ball pit and yellow slide at Hapjoy" width="900" height="1200">
+        <div class="open-now" id="openNow" hidden><i></i><span></span></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section id="prices">
+    <div class="eyebrow">Play passes</div>
+    <h2>Simple prices, happy kids</h2>
+    <p class="lead">Per child. Pick a pass at the counter and let the fun begin.</p>
+    <div class="prices">
+      <div class="price" style="--c: var(--sky)"><div class="dur">30 minutes</div><div class="amt"><small>₹</small>150</div></div>
+      <div class="price" style="--c: var(--sun)"><div class="dur">1 hour</div><div class="amt"><small>₹</small>200</div></div>
+      <div class="price" style="--c: var(--pink)"><div class="dur">2 hours</div><div class="amt"><small>₹</small>300</div></div>
+      <div class="price best"><span class="badge">Best value</span><div class="dur">Full day</div><div class="amt"><small>₹</small>450</div></div>
+    </div>
+    <div class="note">
+      <span style="font-size:24px">🧦</span>
+      <div><b>Grip socks are compulsory</b>Please bring a pair for your little one, or pick one up at the counter.</div>
+    </div>
+  </section>
+
+  <section id="play">
+    <div class="eyebrow">What's inside</div>
+    <h2>So much to explore</h2>
+    <div class="areas">
+      <div class="area"><div class="dot" style="background:#FFF1C9">🟡</div><div><h3>Ocean ball pit &amp; slides</h3><p>Big yellow slides straight into a sea of colourful balls.</p></div></div>
+      <div class="area"><div class="dot" style="background:#E2F3F6">🤸</div><div><h3>Soft play &amp; trampoline</h3><p>Climb, crawl through tunnels and bounce to their heart's content.</p></div></div>
+      <div class="area"><div class="dot" style="background:#E8F3EC">🌳</div><div><h3>Foam pit &amp; Gratitude Climb</h3><p>A climbing wall above a soft foam pit for brave little climbers.</p></div></div>
+      <div class="area"><div class="dot" style="background:#FDE7EC">🚗</div><div><h3>Ride-ons on the green</h3><p>Zoom down the ride-on track on our sunny artificial-grass corner.</p></div></div>
+      <div class="area"><div class="dot" style="background:#FFF1D6">🧸</div><div><h3>Pretend &amp; play</h3><p>Kindness Kitchen, Mindful Market, Selfcare Salon, Care Clinic and Grateful Garage.</p></div></div>
+      <div class="area"><div class="dot" style="background:#EDE9FB">🧱</div><div><h3>Block wall &amp; games</h3><p>A giant building-block wall and tic-tac-toe for little thinkers.</p></div></div>
+    </div>
+  </section>
+
+  <section id="photos">
+    <div class="eyebrow">Take a peek</div>
+    <h2>Inside Hapjoy</h2>
+    <div class="gallery">
+      <div class="wide"><img src="img/playarea.jpg" alt="Soft play structure with ball pit, slide and Thankful Tree" loading="lazy" width="900" height="676"></div>
+      <div><img src="img/softplay.jpg" alt="Yellow slide into the ball pit" loading="lazy" width="720" height="793"></div>
+      <div><img src="img/rideon.jpg" alt="Ride-on cars and track on artificial grass" loading="lazy" width="720" height="793"></div>
+      <div class="wide"><img src="img/pretendplay.jpg" alt="Pretend play house and kitchen corner" loading="lazy" width="900" height="508"></div>
+    </div>
+  </section>
+
+  <section id="visit">
+    <div class="eyebrow">Plan your visit</div>
+    <h2>Find us next to Smart Bazaar</h2>
+    <div class="visit">
+      <div class="card">
+        <h3>Opening hours</h3>
+        <table class="hours" id="hours">
+          <tr data-days="1,2,3,4,5"><td>Monday – Friday</td><td>2:30 – 8:30 pm</td></tr>
+          <tr data-days="0,6"><td>Saturday – Sunday</td><td>11 am – 8:30 pm</td></tr>
+        </table>
+        <a class="link" href="https://www.instagram.com/hapjoy_boisar/" target="_blank" rel="noopener">See what's new on Instagram →</a>
+      </div>
+      <div class="card">
+        <h3>Address</h3>
+        <p class="addr">F-19, 1st Floor, Good Life Mall,<br>Tata Housing Road, next to Smart Bazaar,<br>Betegaon, Boisar East 401501</p>
+        <iframe class="map" title="Map to Hapjoy Kids Playzone" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          src="https://maps.google.com/maps?q=Hapjoy%20Kids%20Playzone%20Boisar&z=16&output=embed"></iframe>
+        <a class="link" href="https://maps.google.com/?cid=9980646970846162751" target="_blank" rel="noopener">Open in Google Maps →</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="values">
+    <h2>Play that's good for the heart</h2>
+    <p>At Hapjoy, kids put the screens down and pick up laughter, friendship and kindness. Parents get a little breather too.</p>
+  </div>
+</main>
+
+<footer class="wrap">
+  <p>Hapjoy Kids Playzone · Boisar East<br>
+    <a href="tel:+917977462523">79774 62523</a> · <a href="https://www.instagram.com/hapjoy_boisar/" target="_blank" rel="noopener">@hapjoy_boisar</a></p>
+</footer>
+
+<div class="sticky" id="sticky">
+  <a class="btn wa" href="https://wa.me/917977462523?text=Hi%20Hapjoy!%20I%27d%20like%20to%20know%20more%20about%20a%20play%20visit." target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.4-.3Z"/></svg>
+    WhatsApp us
+  </a>
+  <a class="btn call" href="tel:+917977462523" aria-label="Call Hapjoy">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg>
+  </a>
+</div>
+
+<script>
+  // "Open now" badge + highlight today's hours, using India time regardless of the viewer's device
+  (function () {
+    var parts = new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Kolkata', weekday: 'short', hour: '2-digit', minute: '2-digit', hour12: false }).formatToParts(new Date());
+    var get = function (t) { return (parts.find(function (p) { return p.type === t; }) || {}).value; };
+    var day = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].indexOf(get('weekday'));
+    var mins = parseInt(get('hour'), 10) % 24 * 60 + parseInt(get('minute'), 10);
+    var weekend = day === 0 || day === 6;
+    var opens = weekend ? 11 * 60 : 14 * 60 + 30, closes = 20 * 60 + 30;
+
+    var badge = document.getElementById('openNow');
+    var text = badge.querySelector('span');
+    if (mins >= opens && mins < closes) {
+      text.textContent = 'Open now · till 8:30 pm';
+    } else {
+      badge.classList.add('closed');
+      text.textContent = mins < opens ? 'Opens today at ' + (weekend ? '11 am' : '2:30 pm') : 'Closed now · opens tomorrow';
+    }
+    badge.hidden = false;
+
+    document.querySelectorAll('#hours tr').forEach(function (tr) {
+      if (tr.dataset.days.split(',').map(Number).indexOf(day) !== -1) tr.classList.add('today');
+    });
+
+    // Sticky WhatsApp bar appears once the hero buttons scroll out of view
+    var sticky = document.getElementById('sticky');
+    var actions = document.getElementById('actions');
+    if ('IntersectionObserver' in window) {
+      new IntersectionObserver(function (e) { sticky.classList.toggle('show', !e[0].isIntersecting); }).observe(actions);
+    }
+  })();
+</script>
+</body>
+</html>
